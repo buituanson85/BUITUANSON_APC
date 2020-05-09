@@ -9,7 +9,7 @@ int main(){
 	float kq;
 	if( a >= b)
 	{
-		kq = 1.0*a/b;
+		kq = (float)a/b;
 		printf("kq duoc in ra %d/%d = %f\n",a,b,kq);
 	}
 	if( b >= a )
